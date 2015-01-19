@@ -1,0 +1,14 @@
+{
+    "name": "dom-blog",
+    "description": "Dom Luna's Blog!",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/domluna/blog.git"
+    },
+    "dependencies": {
+        "ghost": "0.5.8"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}
