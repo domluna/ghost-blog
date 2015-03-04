@@ -3,7 +3,7 @@
     "description": "Dom Luna's Blog!",
     "repository": {
         "type": "git",
-        "url": "https://github.com/domluna/blog.git"
+        "url": "https://github.com/domluna/ghost-blog.git"
     },
     "dependencies": {
         "ghost": "0.5.8"
