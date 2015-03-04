@@ -10,12 +10,13 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'www.domluna.me',
-        mail: {},
+        url: 'http://www.domluna.me',
+        mail: {
+        },
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(__dirname, '/content/data/ghost.db')
+                filename: path.join(__dirname, '/content/data/ghost-dev.db')
             },
             debug: false
         },
