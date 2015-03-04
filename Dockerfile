@@ -6,9 +6,9 @@
 FROM dockerfile/nodejs
 
 # Fetch the repo & overwrite old version
-RUN curl -Lk https://api.github.com/repos/domluna/ghost-blog/tarball/master | tar xz
-RUN cp -rl ghost-blog-master ghost
-RUN rm -rf ghost-blog-master
+RUN curl -L https://github.com/domluna/ghost-blog/tarball/master | tar zx
+RUN cp -r ghost-blog-master-* ghost
+RUN rm -rf ghost-blog-master-*
 
 # Change to ghost directory
 WORKDIR /ghost
