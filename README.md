@@ -1,7 +1,7 @@
 Blog
 ----
 
-My [blog](www.domluna.me).
+My [blog](http://www.domluna.me).
 
 Uses [Ghost](https://ghost.org) as a module.
 
